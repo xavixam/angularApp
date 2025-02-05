@@ -1,0 +1,14 @@
+nav{
+    display: flex;
+    justify-content: space-around;
+padding: 20px;
+background-color: rgb(56, 127, 155);
+.box{
+    display: flex;
+    gap: 30px;
+    a{
+        color:white;
+        text-decoration:underline;
+    }
+}
+}
