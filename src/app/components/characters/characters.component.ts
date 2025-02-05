@@ -2,10 +2,11 @@ import { CommonModule } from '@angular/common';
 import { Component } from '@angular/core';
 import { CharacterInterface } from '../../interfaces/character-interface';
 import { CharacterService } from '../../services/character.service';
+import { NzCardModule } from 'ng-zorro-antd/card';
 
 @Component({
   selector: 'app-characters',
-  imports: [CommonModule],
+  imports: [CommonModule, NzCardModule],
   templateUrl: './characters.component.html',
   styleUrl: './characters.component.scss',
 })

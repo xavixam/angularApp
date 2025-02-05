@@ -1,4 +1,7 @@
-<div *ngFor="let character of characters">
-  <p>{{ character.name }}</p>
-  <img src="{{ character.image }}" alt="" />
+<div class="all">
+  <div *ngFor="let character of characters">
+    <nz-card style="width: 300px" nzTitle="{{ character.name }}">
+      <img src="{{ character.image }}" alt="" />
+    </nz-card>
+  </div>
 </div>
